@@ -51,7 +51,7 @@
 				<a href="{% url 'admin_panel' %}"><i class="fas fa-user-tie"></i>Админ панель</a>
 			</li>
 			<li class="{% if request.path == lec %}active{% endif %}">
-				<a href="{% url 'lecturer_list' %}"><i class="fas fa-chalkboard-teacher"></i>Лекции</a>
+				<a href="{% url 'lecturer_list' %}"><i class="fas fa-chalkboard-teacher"></i>Преподаватели</a>
 			</li>
 			<li class="{% if request.path == stu %}active{% endif %}">
 				<a href="{% url 'student_list' %}"><i class="fas fa-user-graduate"></i>Студенты</a>
